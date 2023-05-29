@@ -1,9 +1,9 @@
 ﻿# MyShortNote
 
-#Distributed Systems
+#Distributed Systems - 8
 
-#Application Frameworks
+#Application Frameworks - 17
 
-#Current Trends in Software Engineering
+#Current Trends in Software Engineering - 7
 
-#Mobile Application Design and Development 
+#Mobile Application Design and Development - 10 | 16
