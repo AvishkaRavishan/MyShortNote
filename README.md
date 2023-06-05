@@ -1,5 +1,5 @@
 ﻿# MyShortNote 
- My_University_Note_Updates
+ My_University_Note_Updates 24*
 
 #Distributed Systems - 8
 
