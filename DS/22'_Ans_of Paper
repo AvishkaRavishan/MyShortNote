@@ -1,0 +1,118 @@
+04)
+Cloud Computing Benefits for Accident Capture Inc:
+No up-front cost: 
+Yes, it's important because they can avoid initial investments and pay based on usage.
+Reduced IT maintenance: 
+Yes, it's important because it frees them from managing infrastructure and software updates.
+VM Elasticity: 
+Yes, it's essential because they can scale resources based on demand and optimise costs.
+Faster market time: 
+Yes, it's important because they can quickly deploy their solution without lengthy setup times.
+AC shouldn't build their own private cloud because it's costly and complex. They can use public cloud services that offer global coverage and meet their needs.
+Vertical scaling means adding resources to an existing server, while horizontal scaling means adding more servers. Horizontal scaling is better for cloud-based applications.
+Cloud architecture platforms:
+Infrastructure as a Service (IaaS): Virtualized computing resources.
+Platform as a Service (PaaS): Development platform for building and managing applications.
+Software as a Service (SaaS): Cloud-based software applications.
+Cloud computing services for different scenarios:
+a. SaaS: Using a cloud-based HRM system for internal HR management. 
+b. PaaS: Deploying an enterprise web application on a cloud-based application server. 
+c. IaaS: Automatically creating virtual containers in the cloud when application load increases.
+
+
+03)
+
+SOA is a design approach where software systems are organized as independent services, allowing flexibility and interoperability. Traditional RPC frameworks have tight coupling between client and server components.
+
+Monolithic architecture is a single, tightly coupled application. SOA organizes systems as services, promoting loose coupling. Microservices break down applications into small, independent services.
+
+Service discovery in microservices means finding available services. Client-side discovery involves clients querying a registry. Server-side discovery uses a load balancer or gateway to route requests.
+
+The four main dependability factors are reliability (consistent performance without failure), availability (proportion of time the system is operational), maintainability (ease of making changes), and security (protection against unauthorized access).
+
+Availability of CPU = (MTBF / (MTBF + MTTR)) * 100. 
+Given MTBF = 250,000h and MTTR = 8h, 
+the CPU availability is approximately 99.996%.
+
+Redundancy options for fault tolerance include hardware redundancy (duplicating components), software redundancy (using redundant servers or virtual machines), data redundancy (replicating data), and network redundancy (redundant paths or providers). Choose based on requirements and trade-offs.
+
+		 	 	 		
+			
+02)
+
+A)	
+Local Method Invocation:
+It means calling a method within the same program or on the same computer.
+No need for network communication.
+Directly executes the method in the current program.
+Object references are simple pointers or references.
+It's straightforward and doesn't involve external systems.
+Remote Method Invocation:
+It means calling a method on a different computer or process.
+Requires network communication.
+The method is executed on a remote computer or process.
+Object references represent remote objects.
+It involves interacting with external systems.
+In short, the local method invocation is when you call a method within your program or computer, while remote method invocation is when you call a method on a different computer or process, requiring network communication.
+
+B)
+
+C)
+
+D)
+
+
+
+01)
+
+A)
+Challenge 1: Data Collection and Transmission
+Challenge: Getting rainfall data from sensors to the central server.
+Solution: Make sensors with reliable connectivity and use protocols like MQTT or HTTP for secure data transmission.
+Challenge 2: Scalability and Reliability of the Central Server
+Challenge: Ensuring the server can handle a large volume of incoming data from multiple sensors.
+Solution: Use cloud-based technologies with load balancing and auto-scaling capabilities for a distributed and scalable server.
+Challenge 3: Real-time Data Processing and Analysis
+Challenge: Processing and analyzing rainfall data in real time.
+Solution: Utilize stream processing frameworks and implement algorithms for real-time analysis, leveraging scalable computing resources.
+Challenge 4: User Interface and Accessibility
+Challenge: Creating user-friendly web and mobile clients for viewing rainfall details and reports.
+Solution: Design responsive interfaces that adapt to different devices and develop platform-specific mobile clients for a consistent user experience.
+By addressing these challenges, the client for the distributed rainfall monitoring system can be successfully developed.
+
+B)
+A cloud-based voting system: 		Event-based architecture
+An app for food ordering: 		Component-based architecture
+A legal document-sharing system: 	Data-centric architecture
+Remote baby monitoring system: 	Layered architecture
+
+C)
+Scalability: Distributing business tiers helps handle increased demand by allowing each tier to scale independently.
+Reliability: If one tier fails, others can continue to operate, reducing the impact of failures on the system.
+Performance: Distributing the workload across tiers improves the system's ability to handle more requests and respond quickly.
+Development and Maintenance: Separating tiers simplifies development, testing, and maintenance processes.
+Flexibility: Each tier can be scaled and upgraded independently, adapting to changing requirements.
+Security: Distributing tiers enhances security by segregating sensitive data and controlling access to different components.
+
+
+
+D)
+For the shopping cart object: 		Per client.
+For the counter object: 			Singleton.
+For the taxi booking request object: 	Per call.
+ 
+
+E)
+To get an alert from a remote health monitoring system, only when the heart rate exceeds a particular value: 
+Java RMI with asynchronous callback functions is the best choice. It allows the system to notify the client when the condition is met without continuous polling.
+To login to an online banking application using the account ID and password: 
+Socket programming is the most suitable method. It provides a secure way to establish a connection and exchange data.
+To check the heart rate using a remote health monitoring system, every five minutes: 
+Java RMI based polling is the best option. It enables the client to periodically poll the server for the heart rate reading at specific intervals.
+Fire alarm system that can send/receive data in an internal system with high internet traffic: 
+Socket programming is the appropriate communication method. It efficiently handles the high volume of data transmission in real time.
+
+
+
+
+
