@@ -1,7 +1,7 @@
 ﻿# MyShortNote 
  My_University_Note_Updates 24*
 
-#Distributed Systems - 8
+~Distributed Systems - 8~
 
 #Application Frameworks - 17
 
